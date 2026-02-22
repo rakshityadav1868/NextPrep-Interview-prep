@@ -45,8 +45,8 @@ function App() {
         <div>
           <h2>Interview Question</h2>
           {questions.map((q) => (
-            <div key={q.questions}>
-              <p>{q.questions}</p>
+            <div key={q.question}>
+              <p>{q.question}</p>
               <span>{q.difficulty}</span>
               <span>{q.category}</span>
             </div>
